@@ -1,0 +1,3 @@
+[submodule "shogles"]
+	path = shogles
+	url = git@github.com:simonharvey/shogles.git

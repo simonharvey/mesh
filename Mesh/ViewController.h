@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
+#import "scene.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : GLKViewController <GLKViewDelegate, UIGestureRecognizerDelegate>
+{
+	Scene * scene;
+	CGPoint last_pos;
+}
 
 @end

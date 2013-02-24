@@ -18,7 +18,12 @@
 		87E4CAB616D949E2002082D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E4CAB516D949E2002082D5 /* Default-568h@2x.png */; };
 		87E4CAB916D949E2002082D5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E4CAB716D949E2002082D5 /* MainStoryboard_iPhone.storyboard */; };
 		87E4CABC16D949E2002082D5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E4CABA16D949E2002082D5 /* MainStoryboard_iPad.storyboard */; };
-		87E4CABF16D949E2002082D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E4CABE16D949E2002082D5 /* ViewController.m */; };
+		87E4CABF16D949E2002082D5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87E4CABE16D949E2002082D5 /* ViewController.mm */; };
+		87E4CAC716D949F8002082D5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E4CAC516D949F8002082D5 /* GLKit.framework */; };
+		87E4CAC816D949F8002082D5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E4CAC616D949F8002082D5 /* OpenGLES.framework */; };
+		87E4CADC16D95399002082D5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 87E4CACF16D95399002082D5 /* .gitignore */; };
+		87E4CADD16D95399002082D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87E4CAD016D95399002082D5 /* README.md */; };
+		87E4CADF16D9551E002082D5 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 87E4CADE16D9551E002082D5 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +43,29 @@
 		87E4CAB816D949E2002082D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		87E4CABB16D949E2002082D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		87E4CABD16D949E2002082D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87E4CABE16D949E2002082D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87E4CABE16D949E2002082D5 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		87E4CAC516D949F8002082D5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		87E4CAC616D949F8002082D5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		87E4CAC916D94B8A002082D5 /* scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		87E4CACA16D94D4C002082D5 /* arcball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arcball.h; sourceTree = "<group>"; };
+		87E4CACB16D94FE2002082D5 /* mesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		87E4CACD16D95320002082D5 /* icosahedron.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = icosahedron.h; sourceTree = "<group>"; };
+		87E4CACF16D95399002082D5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		87E4CAD016D95399002082D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		87E4CAD116D95399002082D5 /* rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rect.h; sourceTree = "<group>"; };
+		87E4CAD216D95399002082D5 /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		87E4CAD316D95399002082D5 /* render_texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_texture.h; sourceTree = "<group>"; };
+		87E4CAD416D95399002082D5 /* resource_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource_manager.h; sourceTree = "<group>"; };
+		87E4CAD516D95399002082D5 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
+		87E4CAD616D95399002082D5 /* shogles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shogles.h; sourceTree = "<group>"; };
+		87E4CAD716D95399002082D5 /* shogles_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shogles_utils.h; sourceTree = "<group>"; };
+		87E4CAD816D95399002082D5 /* sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sprite.h; sourceTree = "<group>"; };
+		87E4CAD916D95399002082D5 /* sprite_batch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sprite_batch.h; sourceTree = "<group>"; };
+		87E4CADA16D95399002082D5 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		87E4CADB16D95399002082D5 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		87E4CADE16D9551E002082D5 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		87E4CAE016D96702002082D5 /* cg_extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cg_extensions.h; sourceTree = "<group>"; };
+		87E4CAE116D9A4A6002082D5 /* barycentric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = barycentric.h; path = ../../Mesh_old/Mesh/barycentric.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E4CAC716D949F8002082D5 /* GLKit.framework in Frameworks */,
+				87E4CAC816D949F8002082D5 /* OpenGLES.framework in Frameworks */,
 				87E4CAA016D949E2002082D5 /* UIKit.framework in Frameworks */,
 				87E4CAA216D949E2002082D5 /* Foundation.framework in Frameworks */,
 				87E4CAA416D949E2002082D5 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +87,8 @@
 		87E4CA9316D949E2002082D5 = {
 			isa = PBXGroup;
 			children = (
+				87E4CADE16D9551E002082D5 /* Assets */,
+				87E4CACE16D95399002082D5 /* shogles */,
 				87E4CAA516D949E2002082D5 /* Mesh */,
 				87E4CA9E16D949E2002082D5 /* Frameworks */,
 				87E4CA9D16D949E2002082D5 /* Products */,
@@ -75,6 +106,8 @@
 		87E4CA9E16D949E2002082D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87E4CAC516D949F8002082D5 /* GLKit.framework */,
+				87E4CAC616D949F8002082D5 /* OpenGLES.framework */,
 				87E4CA9F16D949E2002082D5 /* UIKit.framework */,
 				87E4CAA116D949E2002082D5 /* Foundation.framework */,
 				87E4CAA316D949E2002082D5 /* CoreGraphics.framework */,
@@ -85,13 +118,14 @@
 		87E4CAA516D949E2002082D5 /* Mesh */ = {
 			isa = PBXGroup;
 			children = (
-				87E4CAAE16D949E2002082D5 /* AppDelegate.h */,
-				87E4CAAF16D949E2002082D5 /* AppDelegate.m */,
-				87E4CAB716D949E2002082D5 /* MainStoryboard_iPhone.storyboard */,
-				87E4CABA16D949E2002082D5 /* MainStoryboard_iPad.storyboard */,
-				87E4CABD16D949E2002082D5 /* ViewController.h */,
-				87E4CABE16D949E2002082D5 /* ViewController.m */,
+				87E4CAE216D9A4EA002082D5 /* Meshes */,
+				87E4CAE116D9A4A6002082D5 /* barycentric.h */,
+				87E4CACA16D94D4C002082D5 /* arcball.h */,
+				87E4CAC916D94B8A002082D5 /* scene.h */,
+				87E4CACB16D94FE2002082D5 /* mesh.h */,
+				87E4CACC16D94FF2002082D5 /* iOS */,
 				87E4CAA616D949E2002082D5 /* Supporting Files */,
+				87E4CAE016D96702002082D5 /* cg_extensions.h */,
 			);
 			path = Mesh;
 			sourceTree = "<group>";
@@ -108,6 +142,47 @@
 				87E4CAB516D949E2002082D5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E4CACC16D94FF2002082D5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				87E4CAAE16D949E2002082D5 /* AppDelegate.h */,
+				87E4CAAF16D949E2002082D5 /* AppDelegate.m */,
+				87E4CAB716D949E2002082D5 /* MainStoryboard_iPhone.storyboard */,
+				87E4CABA16D949E2002082D5 /* MainStoryboard_iPad.storyboard */,
+				87E4CABD16D949E2002082D5 /* ViewController.h */,
+				87E4CABE16D949E2002082D5 /* ViewController.mm */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87E4CACE16D95399002082D5 /* shogles */ = {
+			isa = PBXGroup;
+			children = (
+				87E4CACF16D95399002082D5 /* .gitignore */,
+				87E4CAD016D95399002082D5 /* README.md */,
+				87E4CAD116D95399002082D5 /* rect.h */,
+				87E4CAD216D95399002082D5 /* render.h */,
+				87E4CAD316D95399002082D5 /* render_texture.h */,
+				87E4CAD416D95399002082D5 /* resource_manager.h */,
+				87E4CAD516D95399002082D5 /* shader.h */,
+				87E4CAD616D95399002082D5 /* shogles.h */,
+				87E4CAD716D95399002082D5 /* shogles_utils.h */,
+				87E4CAD816D95399002082D5 /* sprite.h */,
+				87E4CAD916D95399002082D5 /* sprite_batch.h */,
+				87E4CADA16D95399002082D5 /* texture.h */,
+				87E4CADB16D95399002082D5 /* utils.h */,
+			);
+			path = shogles;
+			sourceTree = "<group>";
+		};
+		87E4CAE216D9A4EA002082D5 /* Meshes */ = {
+			isa = PBXGroup;
+			children = (
+				87E4CACD16D95320002082D5 /* icosahedron.h */,
+			);
+			name = Meshes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +242,9 @@
 				87E4CAB616D949E2002082D5 /* Default-568h@2x.png in Resources */,
 				87E4CAB916D949E2002082D5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				87E4CABC16D949E2002082D5 /* MainStoryboard_iPad.storyboard in Resources */,
+				87E4CADC16D95399002082D5 /* .gitignore in Resources */,
+				87E4CADD16D95399002082D5 /* README.md in Resources */,
+				87E4CADF16D9551E002082D5 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +257,7 @@
 			files = (
 				87E4CAAC16D949E2002082D5 /* main.m in Sources */,
 				87E4CAB016D949E2002082D5 /* AppDelegate.m in Sources */,
-				87E4CABF16D949E2002082D5 /* ViewController.m in Sources */,
+				87E4CABF16D949E2002082D5 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -237,6 +315,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/glm-0.9.3.0";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -261,6 +340,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/glm-0.9.3.0";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
